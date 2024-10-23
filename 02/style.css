@@ -31,21 +31,27 @@ button{
     margin: 1.125rem 3rem;
     padding: 1.125rem 3rem;
     border: none;
+    cursor: pointer;
+}
+#row{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
 }
 .row_one, .row_two{
     overflow: hidden;
     width: 100%;
+    height: 8rem;
+    margin: 10px;
     cursor: pointer;
-    border-radius: 1rem;
+    border-radius: 1.25rem;
 }
 #img{
     align-self: center;
-
 }
 
 img{
     width: 8.75rem;
-    margin: 0.3rem;
     transition: all 1.2s;
 }
 
