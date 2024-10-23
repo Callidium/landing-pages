@@ -37,8 +37,6 @@ button{
     width: 100%;
     cursor: pointer;
     border-radius: 1rem;
-    position: relative;
-
 }
 #img{
     align-self: center;
